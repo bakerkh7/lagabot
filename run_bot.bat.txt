@@ -1,0 +1,7 @@
+@echo off
+cd /d "%~dp0"
+:loop
+python bot.py
+echo البوت توقف، جاري إعادة التشغيل خلال 1 ثوانٍ...
+timeout /t 5
+goto loop
